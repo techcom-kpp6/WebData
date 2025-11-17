@@ -1,5 +1,5 @@
 * {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     background-color: black;
     padding: 0;
     margin: 0;
@@ -8,6 +8,7 @@
 }
 
 body {
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +17,7 @@ body {
 }
 
 h1 {
+    color: rgb(255, 255, 255);
     text-decoration: none;
     list-style: none;
     font-weight: bold;
@@ -28,17 +30,32 @@ ul {
     align-items: flex-start;
     margin-top: 1rem;
 }
-ul, li {
+ul li {
     list-style: none;
-    border: 3px solid rgb(0, 0, 0);
 }
-a {
+.bbt a {
     font-weight: bold;
     text-decoration: none;
     padding: 5px;
     border-radius: 10px;
     border: 3px solid rgb(255, 255, 255);
     background-color: rgb(0, 0, 255);
+}
+.ylbt a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 0);
+}
+.gbt a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(0, 255, 0);
 }
 a:hover{
     transform: scale(1.1, 1.1);
